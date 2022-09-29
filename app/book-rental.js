@@ -1,4 +1,4 @@
-// ----- Izdavanje knjiga tabs ----- //
+//  Book rental tabs (on book-rental page) //
 const bookTabs = document.querySelectorAll('.knjige__toggle');
 const bookContents = document.querySelectorAll('.knjige__content');
 

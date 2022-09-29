@@ -193,7 +193,7 @@ nav.close ~ .dashboard .top {
 .librarians-content,
 .students-content,
 .books-content,
-.izdavanje-knjiga-content,
+.book-rental-content,
 .settings-content {
     width: 100%;
 }
@@ -201,7 +201,7 @@ nav.close ~ .dashboard .top {
 .librarians-content,
 .students-content,
 .books-content,
-.izdavanje-knjiga-content,
+.book-rental-content,
 .settings-content,
 .new-content {
     margin-top: 70px;
@@ -451,55 +451,55 @@ table tr td i {
     margin-top: 70px;
 }
 
-.izdavanje-main-content {
+.book-rental-main-content {
     display: flex;
     align-items: flex-start;
 }
 
-.izdavanje-actions {
+.book-rental-actions {
     width: 18%;
     margin-right: auto;
 }
 
-.izdavanje-table {
+.book-rental-table {
     width: 80%;
 }
 
-.izdavanje-table .members .new-member a {
+.book-rental-table .members .new-member a {
     border: none;
 }
 
-.izdavanje-table .members .search-members input,
-.izdavanje-table .members .search-members button {
+.book-rental-table .members .search-members input,
+.book-rental-table .members .search-members button {
     border: none;
 }
 
-.izdavanje-actions-links li,
-.izdavanje-actions-info li {
+.book-rental-actions-links li,
+.book-rental-actions-info li {
     padding: 0 0 15px 0;
 }
 
-.izdavanje-actions-links a,
-.izdavanje-actions-info a {
+.book-rental-actions-links a,
+.book-rental-actions-info a {
     color: var(--primary-dark-color);
     font-size: 16px;
     padding: 3px 7px;
 }
 
-.izdavanje-actions-links a:hover,
-.izdavanje-actions-info a:hover {
+.book-rental-actions-links a:hover,
+.book-rental-actions-info a:hover {
     border-radius: 3px;
     font-weight: 500;
 }
 
-.izdavanje-actions-links {
+.book-rental-actions-links {
     padding-bottom: 15px;
     border-bottom: 1px solid var(--black-light-color);
     align-self: flex-start;
 
 }
 
-.izdavanje-actions-info {
+.book-rental-actions-info {
     padding-top: 20px;
 }
 
@@ -1189,7 +1189,7 @@ table tr td i {
     .librarians-content,
     .students-content,
     .books-content,
-    .izdavanje-knjiga-content,
+    .book-rental-content,
     .settings-content {
         width: 100%;
     }
@@ -1236,16 +1236,16 @@ table tr td i {
         width: 95%;
     }
 
-    .izdavanje-main-content {
+    .book-rental-main-content {
         align-items: flex-start;
     }
 
-    .izdavanje-table .members {
+    .book-rental-table .members {
         margin: 0 0 30px 0;
         display: block;
     }
 
-    .izdavanje-table .members .input {
+    .book-rental-table .members .input {
         width: 220px;
         border: 1px solid var(--black-light-color);
         margin-bottom: 15px;
@@ -1366,7 +1366,7 @@ table tr td i {
         width: 50%;
     }
 
-    .izdavanje-table {
+    .book-rental-table {
         width: 100%;
     }
 
@@ -1378,28 +1378,28 @@ table tr td i {
         display: none;
     }
 
-    .izdavanje-knjiga-content {
+    .book-rental-content {
         margin: 70px auto;
     }
 
-    .izdavanje-main-content {
+    .book-rental-main-content {
         display: block;
     }
 
-    .izdavanje-main-content .izdavanje-actions .izdavanje-actions-links,
-    .izdavanje-main-content .izdavanje-actions .izdavanje-actions-info {
+    .book-rental-main-content .book-rental-actions .book-rental-actions-links,
+    .book-rental-main-content .book-rental-actions .book-rental-actions-info {
         display: flex;
         align-items: center;
         justify-content: space-around;
     }
 
-    .izdavanje-actions {
+    .book-rental-actions {
         width: 100%;
         margin-bottom: 30px;
     }
 
-    .izdavanje-actions-links li,
-    .izdavanje-actions-info li {
+    .book-rental-actions-links li,
+    .book-rental-actions-info li {
         padding: 0 20px;
     }
 

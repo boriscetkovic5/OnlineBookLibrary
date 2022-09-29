@@ -1,51 +1,10 @@
-// ----- Book Modal tabs -----//
-const bookModalTabs = document.querySelectorAll('.book-modal-main__toggle');
-const bookModalContent = document.querySelectorAll('.book-modal-main__content');
-bookModalTabs.forEach((tab, index) => {
-    tab.addEventListener('click', () => {
-        bookModalContent.forEach((content) => {
-            content.classList.remove('is-active');
-        });
-
-        bookModalTabs.forEach((tab) => {
-            tab.classList.remove('is-active');
-        });
-
-        bookModalContent[index].classList.add('is-active');
-        bookModalTabs[index].classList.add('is-active');
-    });
-});
-
-// ----- Single Student tabs -----//
-const singleStudentTabs = document.querySelectorAll('.single-student__toggle ');
-const singleStudentContent = document.querySelectorAll('.single-student__content');
-
-singleStudentTabs.forEach((tab, index) => {
-    tab.addEventListener('click', () => {
-        singleStudentContent.forEach((content) => {
-            content.classList.remove('is-active');
-         });
-        
-         singleStudentTabs.forEach((tab) => {
-            tab.classList.remove('is-active');
-        });
-
-        singleStudentContent[index].classList.add('is-active');
-        singleStudentTabs[index].classList.add('is-active');
-    });
-});
-
-
-
-// ----- Show all activities ----- //
-
+// Show all activities //
 showAllBtn.addEventListener('click', () => {
     hiddenActivities.classList.toggle('hidden');
 });
 
 
-// ----- Chart ----- //
-
+// Chart //
 const barChart = document.getElementById('barChart');
 
 new Chart(barChart, {

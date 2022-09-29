@@ -3,14 +3,13 @@ const sidebar = document.querySelector('nav');
 const hiddenActivities = document.querySelector('.dashboard-hidden-activities');
 const showAllBtn = document.querySelector('.showAll');
 
-
-// ----- Toggle Sidebar ----- //
+// Toggle Sidebar //
 sidebarToggle.addEventListener('click', () => {
     sidebar.classList.toggle('close');
 });
 
-// ----- Create new users from header ----- //
 
+// Create new users and books from header //
 const createContentBtn = document.querySelectorAll('.user-create-btn');
 const contentDiv = document.querySelector('.dash-new-users');
 createContentBtn.forEach(create => {
@@ -19,7 +18,7 @@ createContentBtn.forEach(create => {
     });
 });
 
-// ----- User profile options ----- //
+// User profile options (user account in header) //
 const optionsProfileBtn = document.querySelectorAll('.user-profile-options');
 const userProfileOptions = document.querySelector('.account-profile-options');
 optionsProfileBtn.forEach(option => {

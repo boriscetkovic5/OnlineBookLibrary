@@ -1,4 +1,4 @@
-// ----- Settings tabs ----- //
+// Settings tabs (on settings page) //
 const settingsTabs = document.querySelectorAll('.settings__toggle');
 const settingsContent = document.querySelectorAll('.settings__content');
 
