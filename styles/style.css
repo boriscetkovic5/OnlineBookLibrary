@@ -232,7 +232,7 @@ nav.close ~ .dashboard .top {
 .dash-activities .single-activity {
     display: flex;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .single-activity .user-photo img {
@@ -638,7 +638,7 @@ table tr td i {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border-bottom: 2px solid var(--border-color);
     padding-bottom: 15px;
 }
