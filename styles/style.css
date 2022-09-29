@@ -268,7 +268,7 @@ nav.close ~ .dashboard .top {
 
 .show-all-activities-btn .showAll {
     display: inline-block;
-    width: 100%;
+    width: 90%;
     padding: 7px;
     font-size: 14px;
     background-color: var(--primary-light-color);
@@ -277,7 +277,7 @@ nav.close ~ .dashboard .top {
 }
 
 .show-all-activities-btn .showAll:hover {
-    background-color: var(--primary-dark-color);
+    background-color: var(--primary-link-color);
     color: var(--secondary-light-color);
     border-radius: 5px;
     border: none;
@@ -416,7 +416,9 @@ table tr td i {
 }
 
 .members .new-member a:hover {
-    background-color: var(--primary-dark-color);
+    background-color: var(--success-btn-color);
+    border: 2px solid var(--success-btn-color);
+    padding: 12px 30px;
 }
 
 .search-members {
@@ -616,6 +618,12 @@ table tr td i {
     padding: 7px 20px;
     margin-bottom: 30px;
     border: 2px solid var(--primary-dark-color);
+    border-radius: 4px;
+}
+
+.new-settings-style a:hover {
+    background-color: var(--success-btn-color);
+    border: 2px solid var(--success-btn-color)
 }
 
 .settings__content table tr td i {
@@ -633,6 +641,10 @@ table tr td i {
     margin-bottom: 20px;
     border-bottom: 2px solid var(--border-color);
     padding-bottom: 15px;
+}
+
+.dashboard-reservation:hover {
+    background-color: var(--secondary-light-color);
 }
 
 .dashboard-reservation div i {
@@ -752,7 +764,7 @@ table tr td i {
 .new-user-action-buttons a.btn-cancel:hover {
     background-color: var(--danger-btn-color);
     color: var(--secondary-light-color);
-    border: 2px solid var(--black-light-color);
+    border: 2px solid var(--danger-btn-color);
     padding: 7px 20px;
 }
 
@@ -764,6 +776,7 @@ table tr td i {
 
 .new-user-action-buttons a.btn-save:hover {
     background-color: var(--success-btn-color);
+    border: 2px solid var(--success-btn-color);
     padding: 7px 20px;
 }
 
@@ -1244,7 +1257,7 @@ table tr td i {
         display: block;
     }
 
-    .izdavanje-table .members .new-member input {
+    .izdavanje-table .members .input {
         width: 220px;
         border: 1px solid var(--black-light-color);
         margin-bottom: 15px;
@@ -1364,7 +1377,6 @@ table tr td i {
         font-weight: 600;
         font-size: 14px;
         text-align: left;
-        vertical-align: auto;
         width: 50%;
     }
 
