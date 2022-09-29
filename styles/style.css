@@ -244,6 +244,14 @@ nav.close ~ .dashboard .top {
     margin-left: 10px;
 }
 
+.single-activity .activity-info a {
+    color: var(--primary-link-color);
+}
+
+.single-activity .activity-info a:hover {
+    color: var(--success-btn-color);
+}
+
 .activity-info .time {
     margin-bottom: 5px;
     text-transform: uppercase;
@@ -855,6 +863,12 @@ table tr td i {
 
 .chart-wrapper {
     width: 500px;
+}
+
+.single-user,
+.single-student,
+.book-modal {
+    margin-top: 70px;
 }
 
 .single-user .single-user-data,
