@@ -29,12 +29,6 @@ img {
     --black-light-color: #BDC3C7;
     --border-color: #e6e5e5;
 
-    /* Transition */
-
-    --tran-05: all 0.5 ease;
-    --tran-03: all 0.3 ease;
-    --tran-02: all 0.2 ease;
-
 }
 
 nav {
