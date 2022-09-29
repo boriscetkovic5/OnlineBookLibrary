@@ -554,6 +554,10 @@ table tr td i {
     display: none;
 }
 
+.single-student__toggle.is-active {
+    color: var(--primary-link-color);
+}
+
 .settings__content.is-active,
 .single-student__content.is-active {
     display: block;
@@ -585,6 +589,10 @@ table tr td i {
 
 .single-student-nav ul li a:hover {
     color: var(--black-light-color);
+}
+
+.single-student-nav ul li a.is-active {
+    color: var(--secondary-dark-color);
 }
 
 .single-student-info__toggle.is-active {
@@ -992,6 +1000,10 @@ table tr td i {
 
 .book-modal-main__content.is-active {
     display: block;
+}
+
+.book-modal-main__toggle.is-active {
+    color: var(--primary-link-color);
 }
 
 .book-modal-main__content .book-main-content-details-wrapper {
