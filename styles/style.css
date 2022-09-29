@@ -689,23 +689,7 @@ table tr td i {
     color: var(--success-btn-color);
 }
 
-
-.modal {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    z-index: 9999;
-    background-color: var(--primary-light-color);
-    overflow: auto;
-    display: none;
-}
-
-.modal .overview {
-    width: 95%;
-}
-
-.new-content .new-user-data,
-.modal .new-user-data {
+.new-content .new-user-data {
     display: flex;
     justify-content: space-between;
 }
@@ -719,14 +703,12 @@ table tr td i {
     flex-basis: 50%;
 }
 
-.new-content label,
-.modal label {
+.new-content label {
     display: block;
     font-size: 14px;
 }
 
-.new-content input,
-.modal input {
+.new-content input {
     width: 100%;
     padding: 5px;
     margin-bottom: 20px;
@@ -734,15 +716,13 @@ table tr td i {
     border-radius: 3px;
 }
 
-.new-content input.add-user-photo,
-.modal input.add-user-photo {
+.new-content input.add-user-photo {
     width: 300px;
     height: 200px;
     text-align: center;
 }
 
-.new-content select,
-.modal select {
+.new-content select {
     width: 100%;
     margin-bottom: 20px;
     padding: 5px;
@@ -1286,13 +1266,11 @@ table tr td i {
         width: 100%;
     }
 
-    .new-content .overview,
-    .modal .overview {
+    .new-content .overview {
         width: 85%;
     }
 
-    .new-content .new-user-data,
-    .modal .new-user-data {
+    .new-content .new-user-data {
         display: block;
     }
 
@@ -1484,24 +1462,18 @@ table tr td i {
         display: none;
     }
 
-    .new-content
-    .modal {
+    .new-content {
         width: 100%;
     }
 
     .new-content .user-data,
-    .new-content .user-add-photo,
-    .modal .user-data,
-    .modal .user-add-photo {
+    .new-content .user-add-photo {
         width: 90%;
     }
 
     .new-content input,
     .new-content select,
-    .new-content textarea,
-    .modal input,
-    .modal select,
-    .modal textarea {
+    .new-content textarea {
         width: 90%;
     }
 
@@ -1598,10 +1570,7 @@ table tr td i {
 
     .new-content .user-data input,
     .new-content .user-data select,
-    .new-content .user-add-photo input,
-    .modal .user-data input,
-    .modal .user-data select,
-    .modal .user-add-photo input {
+    .new-content .user-add-photo input {
         width: 100%;
     }
 
