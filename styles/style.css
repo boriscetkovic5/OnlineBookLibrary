@@ -266,6 +266,7 @@ nav.close ~ .dashboard .top {
 
 .show-all-activities-btn {
     width: 75%;
+    margin-bottom: 50px;
 }
 
 .show-all-activities-btn .showAll {
@@ -281,9 +282,8 @@ nav.close ~ .dashboard .top {
 .show-all-activities-btn .showAll:hover {
     background-color: var(--primary-link-color);
     color: var(--secondary-light-color);
-    border-radius: 5px;
     border: none;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
     padding: 10px;
 }
 
