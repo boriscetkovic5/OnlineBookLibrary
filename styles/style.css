@@ -937,7 +937,7 @@ table tr td i {
 .single-user .overview ul li a,
 .single-student .overview ul li a,
 .book-modal .overview ul li a {
-    color: var(--primary-dark-color);
+    color: var(--primary--color);
     font-size: 14px;
 }
 
@@ -945,6 +945,18 @@ table tr td i {
 .single-student .overview ul li a:hover,
 .book-modal .overview ul li a:hover {
     color: var(--black-light-color);
+}
+
+.single-user .overview .title p a,
+.single-student .overview .title p a,
+.book-modal .overview .title p a {
+    color: var(--primary-link-color);
+}
+
+.single-user .overview .title p a:hover,
+.single-student .overview .title p a:hover,
+.book-modal .overview .title p a:hover {
+    color: var(--success-btn-color);
 }
 
 .all-single-user-profile-options i {
@@ -1172,6 +1184,8 @@ table tr td i {
     padding: 30px;
     background-color: var(--secondary-light-color);
 }
+
+
 
 .rent-a-book-main-content h5 {
     font-weight: 400;
