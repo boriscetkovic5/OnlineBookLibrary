@@ -264,9 +264,12 @@ nav.close ~ .dashboard .top {
     font-weight: 700;
 }
 
+.important-info {
+    color: var(--primary-link-color);
+}
+
 .show-all-activities-btn {
     width: 75%;
-    margin-bottom: 50px;
 }
 
 .show-all-activities-btn .showAll {
@@ -282,9 +285,7 @@ nav.close ~ .dashboard .top {
 .show-all-activities-btn .showAll:hover {
     background-color: var(--primary-link-color);
     color: var(--secondary-light-color);
-    border: none;
-    margin-bottom: 70px;
-    padding: 10px;
+    border: 2px solid var(--primary-link-color);
 }
 
 .hidden {
@@ -411,7 +412,7 @@ table tr td i {
 .members .new-member a {
     background-color: var(--primary-link-color);
     color: var(--primary-light-color);
-    padding: 7px 25px;
+    padding: 10px 25px;
     border: 2px solid var(--primary-dark-color);
     border-radius: 4px;
     font-size: 14px;
@@ -708,6 +709,7 @@ table tr td i {
 .new-content label {
     display: block;
     font-size: 14px;
+    margin-bottom: 5px;
 }
 
 .new-content input {
@@ -1132,6 +1134,69 @@ table tr td i {
     color: var(--black-light-color);
 }
 
+.single-book-options-content {
+    margin-bottom: 50px;
+}
+
+.single-book-options-content h3 {
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.single-book-options-content h3.single-book-alert {
+    color: var(--danger-btn-color);
+}
+
+.single-book-options-content .new-user-data .user-data label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.single-book-options-content .new-user-data .user-data select {
+    width: 40%;
+    padding: 5px;
+    margin-bottom: 40px;
+    border: 2px solid var(--border-color);
+}
+
+.single-book-options-content .new-user-data .user-data input {
+    width: 20%;
+    padding: 5px;
+    border: 2px solid var(--border-color);
+}
+
+.single-book-options-content .rent-a-book-main-content {
+    width: 100%;
+    padding: 30px;
+    background-color: var(--secondary-light-color);
+}
+
+.rent-a-book-main-content h5 {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.rent-a-book-main-content .rent-a-book-info {
+    width: 300px;
+}
+
+.rent-a-book-main-content .rent-a-book-info .rent-a-book-more-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rent-a-book-more-details p {
+    margin: 0 30px 15px 0;
+}
+
+.rent-a-book-more-details p.bold-info {
+    font-weight: 500;
+}
+
 @media screen and (max-width: 1280px) {
     .show-all-activities-btn {
         width: 90%;
@@ -1202,7 +1267,8 @@ table tr td i {
     .students-content,
     .books-content,
     .book-rental-content,
-    .settings-content {
+    .settings-content,
+    .authors-content {
         width: 100%;
     }
 
@@ -1225,7 +1291,7 @@ table tr td i {
     }
 
     table {
-        width: 90%;
+        width: 100%;
     }
 
     table tr td {
@@ -1238,6 +1304,10 @@ table tr td i {
 
     table tr td i {
         padding-left: 5px;
+    }
+
+    table img {
+        display: none;
     }
 
     .books-table td {
@@ -1273,21 +1343,33 @@ table tr td i {
     }
 
     .new-content .overview {
-        width: 85%;
+        width: 100%;
     }
 
-    .new-content .new-user-data {
+    .new-content .new-user-data,
+    .single-book-options-content .new-user-data {
         display: block;
     }
 
+    .new-author .autor-data .user-data input,
+    .new-author .autor-data .user-data textarea {
+        width: 100%;
+    }
+
     .user-data {
-        width: 80%;
+        width: 100%;
         margin-right: 0;
     }
 
     .user-add-photo {
-        width: 80%;
-        margin-bottom: 100px;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .new-content input.add-user-photo {
+        width: 100%;
+        height: 200px;
+        text-align: center;
     }
 
     .chart-wrapper {
@@ -1299,7 +1381,7 @@ table tr td i {
     }
 
     .single-student-info {
-        width: 90%;
+        width: 100%;
         margin-bottom: 100px;
     }
 
@@ -1323,6 +1405,14 @@ table tr td i {
 
     .book-modal-sidebar .sidebar-top .sidebar-top-info {
         justify-content: space-around;
+    }
+
+    .single-book-options-content .new-user-data .user-data select {
+        width: 80%;
+    }
+
+    .single-book-options-content .new-user-data .user-data input {
+        width: 50%;
     }
 
 }
@@ -1417,17 +1507,13 @@ table tr td i {
 
     .members .new-member {
         padding: 20px 0;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 
     .members {
         display: block;
         margin: 20px 0;
         width: 300px;
-    }
-
-    .members .new-member {
-        margin-bottom: 30px;
     }
 
     .members .new-member input {
@@ -1474,21 +1560,21 @@ table tr td i {
 
     .new-content .user-data,
     .new-content .user-add-photo {
-        width: 90%;
+        width: 100%;
     }
 
     .new-content input,
     .new-content select,
     .new-content textarea {
-        width: 90%;
+        width: 100%;
     }
 
     .new-author .autor-data .user-data input {
-        width: 400px;
+        width: 100;
     }
     
     .new-author .autor-data .user-data textarea {
-        width: 400px;
+        width: 100%;
         height: 200px;
     }
 
@@ -1513,6 +1599,19 @@ table tr td i {
 
     .book-modal-main-tabs ul li a.is-active {
         border-bottom: none;
+    }
+
+    .single-book-options-content h3 {
+        margin-bottom: 0;
+    }
+
+    .single-book-options-content .new-user-data .user-data {
+        margin: 20px 0;
+    }
+
+    .rent-a-book-main-content {
+        margin: 20px 0;
+        width: 100%;
     }
 }
 
@@ -1574,6 +1673,8 @@ table tr td i {
         width: 90%;
     }
 
+    .single-book-options-content .new-user-data .user-data select,
+    .single-book-options-content .new-user-data .user-data input,
     .new-content .user-data input,
     .new-content .user-data select,
     .new-content .user-add-photo input {
@@ -1582,7 +1683,7 @@ table tr td i {
 
     .new-author .autor-data .user-data input,
     .new-author .autor-data .user-data textarea {
-        width: 300px;
+        width: 100%;
     }
 
     .knjiga-data textarea {
@@ -1602,7 +1703,7 @@ table tr td i {
     }
 
     .single-student-info {
-        width: 90%;
+        width: 100%;
     }
 
     .single-user-profile-options {
@@ -1649,5 +1750,13 @@ table tr td i {
 
     .rental-info-nav ul li {
         margin-bottom: 20px;
+    }
+
+    .new-content .overview {
+        width: 100%;
+    }
+
+    .new-content .new-user-data .user-data {
+        width: 100%;
     }
 }
