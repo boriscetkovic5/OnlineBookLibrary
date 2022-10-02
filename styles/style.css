@@ -1409,6 +1409,7 @@ table tr td i {
 
     .book-modal-content {
         display: block;
+        padding: 0;
     }
 
     .book-modal-main {
@@ -1639,6 +1640,10 @@ table tr td i {
         margin: 20px 0;
         width: 100%;
     }
+
+    .book-modal-content {
+        padding: 0;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -1752,10 +1757,6 @@ table tr td i {
         margin-bottom: 15px;
     }
 
-    .book-modal-content {
-        padding: 0 20px 0 0;
-    }
-
     .book-modal-main__content .book-main-content-details-wrapper {
         display: block;
     }
@@ -1766,6 +1767,10 @@ table tr td i {
 
     .book-storyline {
         flex-basis: auto;
+    }
+
+    .sidebar-show-all {
+        text-align: center;
     }
 
     .rental-info-nav ul {
