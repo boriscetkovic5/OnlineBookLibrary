@@ -1213,6 +1213,14 @@ table tr td i {
     font-weight: 500;
 }
 
+.reset-password .new-user-data {
+    display: block;
+}
+
+.reset-password .new-user-data input {
+    width: 30%;
+}
+
 @media screen and (max-width: 1280px) {
     .show-all-activities-btn {
         width: 90%;
@@ -1427,6 +1435,10 @@ table tr td i {
 
     .single-book-options-content .new-user-data .user-data input {
         width: 50%;
+    }
+
+    .reset-password .new-user-data input {
+        width: 30%;
     }
 
 }
