@@ -696,12 +696,12 @@ table tr td i {
 }
 
 .user-data {
-    flex-basis: 50%;
+    flex-basis: 40%;
     margin-right: 40px;
 }
 
 .user-add-photo {
-    flex-basis: 50%;
+    flex-basis: 60%;
 }
 
 .new-content label {
