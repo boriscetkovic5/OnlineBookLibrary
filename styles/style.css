@@ -55,7 +55,6 @@ nav h1 {
 
 nav.close .link-name {
     opacity: 0;
-    pointer-events: none;
 }
 
 nav .menu-items {
@@ -91,7 +90,6 @@ nav .menu-items {
 
 nav.close li a .link-name {
     opacity: 0;
-    pointer-events: none;
 }
 
 .nav-links li a:hover i,
@@ -1185,6 +1183,9 @@ table tr td i {
     background-color: var(--secondary-light-color);
 }
 
+.single-book-options-content input[type="date"] {
+    margin-bottom: 20px;
+}
 
 
 .rent-a-book-main-content h5 {
@@ -1205,6 +1206,7 @@ table tr td i {
 
 .rent-a-book-more-details p {
     margin: 0 30px 15px 0;
+    font-size: 14px;
 }
 
 .rent-a-book-more-details p.bold-info {
@@ -1225,7 +1227,7 @@ table tr td i {
     }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 992px) {
     nav {
         width: 250px;
     }
@@ -1236,7 +1238,6 @@ table tr td i {
 
     nav h1 .link-name{
         opacity: 1;
-        pointer-events: none;
     }
 
     nav.close h1 .link-name {
@@ -1249,7 +1250,6 @@ table tr td i {
 
     nav li a .link-name {
         opacity: 1;
-        pointer-events: none;
     }
 
     nav.close li a .link-name {
@@ -1646,12 +1646,10 @@ table tr td i {
 
     nav h1 {
         opacity: 0;
-        pointer-events: none;
     }
 
     nav li a .link-name {
         opacity: 0;
-        pointer-events: none;
     }
 
     nav.close li a .link-name {
