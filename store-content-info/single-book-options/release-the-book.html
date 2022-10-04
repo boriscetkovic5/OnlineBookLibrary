@@ -134,13 +134,13 @@
                 <div class="book-rental-table">
                     <div class="members">
                         <div class="new-member">
-                            <input type="text" placeholder="Pretrazi knjige">
+                            <input type="text" placeholder="Pretrazi knjige" id="search-books-for-release" onkeyup="searchFunction()">
                             <a href="#">Pretrazi</a>
                         </div>
                     </div><!-- end .members-->
 
                     <div class="book-rental-table-div">
-                        <table class="books-table">
+                        <table class="books-table release-books-table">
                             <thead>
                                 <tr>
                                     <td><input type="checkbox" name="ime" class="checkbox">&nbsp;
@@ -221,5 +221,6 @@
     </section><!-- end .dashboard-->
 
     <script src="../../app/script.js"></script>
+    <script src="../../app/release-the-book.js"></script>
 </body>
 </html>
