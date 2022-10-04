@@ -123,12 +123,12 @@
 
                 <div class="search-members">
                     <button type="submit"><i class="fa fa-search"></i></button>
-                    <input type="text" placeholder="Search.." name="search">
+                    <input type="text" placeholder="Search.." name="search" id="authors-search" onkeyup="searchFunction()">
                 </div>
             </div><!-- end .members-->
 
             <div class="table-container">
-                <table>
+                <table id="authors-table">
                     <thead>
                         <tr>
                             <td><input type="checkbox" name="ime" class="checkbox">&nbsp;
@@ -203,5 +203,6 @@
     </section><!-- end .dashboard-->
 
     <script src="app/script.js"></script>
+    <script src="app/authors.js"></script>
 </body>
 </html>

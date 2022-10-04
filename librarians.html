@@ -123,12 +123,12 @@
 
                 <div class="search-members">
                     <button type="submit"><i class="fa fa-search"></i></button>
-                    <input type="text" placeholder="Search.." name="bibliotekari-search" id="bibliotekari-search">
+                    <input type="text" placeholder="Search.." name="bibliotekari-search" id="bibliotekari-search" onkeyup="searchFunction()">
                 </div>
             </div><!-- end .members-->
 
             <div class="table-container">
-                <table>
+                <table id="librarians-table">
                     <thead>
                         <tr>
                             <td><input type="checkbox" name="ime" class="checkbox">&nbsp;
@@ -185,6 +185,7 @@
     </section><!-- end .dashboard-->
 
     <script src="app/script.js"></script>
+    <script src="app/librarians.js"></script>
 
 </body>
 </html>

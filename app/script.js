@@ -26,3 +26,5 @@ optionsProfileBtn.forEach(option => {
         userProfileOptions.classList.toggle('hidden');
     })
 })
+
+
