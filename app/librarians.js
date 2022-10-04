@@ -2,7 +2,7 @@
 
 function searchFunction() {
   let input, filter, table, tr, td, i, txtValue;
-  input = document.getElementById("bibliotekari-search");
+  input = document.getElementById("librarians-search");
   filter = input.value.toUpperCase();
   table = document.getElementById("librarians-table");
   tr = table.getElementsByTagName("tr");
